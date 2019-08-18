@@ -1,0 +1,68 @@
+/* Content */
+.materi-wrapper {
+  padding-top: 68px;
+}
+
+.materi-wrapper article {
+  margin-top: 3em;
+}
+
+.materi-container {
+  display: flex;
+  padding: 2cm 3cm;
+  color: white;
+  margin: 3em;
+  margin-top: 0;
+  border-radius: 65px;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.materi-cpp {
+  background: linear-gradient(
+      270deg,
+      rgba(4, 4, 4, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      270.72deg,
+      rgba(255, 255, 255, 0) 1.06%,
+      rgba(14, 14, 14, 0.5) 99.87%
+    ),
+    url("../assets/images/home/cpp.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.materi-dap {
+  background: linear-gradient(
+      270deg,
+      rgba(4, 4, 4, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      270.72deg,
+      rgba(255, 255, 255, 0) 1.06%,
+      rgba(14, 14, 14, 0.5) 99.87%
+    ),
+    url("../assets/images/home/dap.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.materi-header-count {
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.materi-header-title {
+  font-size: 48px;
+  margin: 0;
+}
+
+.materi-link-container {
+  align-self: flex-end;
+}
+
+.materi-link-container span {
+  padding-left: 2em;
+}

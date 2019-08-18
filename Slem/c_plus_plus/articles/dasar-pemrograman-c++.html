@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>C Plus Plus &ndash; SLEM CODE ;</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="../../styles/articles.css" />
+    <link rel="stylesheet" href="../../styles/article-header.css" />
+    <link rel="stylesheet" href="../../styles/code-box.css" />
+    <link rel="stylesheet" href="../../styles/extras.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="../../" class="nav-brand nav-link">SLEM CODE ;</a>
+      <a href="#" class="nav-link">LEARNING</a>
+      <a href="#" class="nav-link">PRACTICES</a>
+      <a href="#" class="nav-link">SHARE</a>
+      <button class="nav-link lang-select ">
+        <img src="../../assets/images/lang/ind.png" alt="ind.png" />
+      </button>
+      <button class="nav-link nav-user">
+        <img src="../../assets/images/avatar.jpg" alt="avatar.jpg" />
+      </button>
+    </nav>
+
+    <header class="main-header-wrapper">
+      <div class="return-link-container">
+        <a href="../">
+          <i class="fas fa-chevron-left"></i>
+          <span>Bahasa Pemrograman : C++ > articles</span>
+        </a>
+      </div>
+
+      <div class="header-text-wrapper header-padding">
+        <div class="header-text-left">
+          <span>author-satu</span>
+          <span class="date-published gray-text">12 - Mei - 2019</span>
+          <div>Dasar Pemrograman C++</div>
+        </div>
+        <div class="header-text-right">
+          <a href="../videos/dasar-pemrograman-c++.html" class="link-styling">
+            VIDEO
+          </a>
+          <a
+            href="../practices/dasar-pemrograman-c++.html"
+            class="link-styling"
+          >
+            LATIHAN
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <section class="content-container">
+        <header>
+          <h2>#1 Mengenal C++</h2>
+        </header>
+        <article>
+          <p>
+            Jadi, singkat cerita pada awal tahun 1970-an seorang bernama Bjarne
+            Stroustrup mulai mengembangkan bahasa pemrograman c++ yang merupakan
+            turunan dari Bahasa C.
+          </p>
+          <p>
+            Jika Bahasa C merupakan bahasa prosedural maka Bahasa C++ hadir
+            menggunakan konsep pemrograman berorientasi objek atau Object
+            Oriented Programming.
+          </p>
+          <p>Pemrograman dengan bahasa C menggunakan 2 konsep:</p>
+          <ul>
+            <li>
+              <span class="highlight-item">Data</span> - bahan yang akan diolah.
+            </li>
+            <li>
+              <span class="highlight-item">Algorithms</span> - metode
+              pengolahan.
+            </li>
+          </ul>
+          <p>
+            Tapi bagaimanapun juga, penggunaan bahasa prosedural seperti C
+            sangat tidak efisien khususnya untuk pembuatan software berskala
+            menengah ke atas atau project besar.
+          </p>
+          <p>
+            Terlalu banyak perulangan, percabangan, dan kode yang harus kita
+            ketikan.
+          </p>
+          <p>
+            Maka dari itu kemudian bahasa c ini dikembangkan ke tingkat lebih
+            lanjut menjadi bahasa c yang berorientasi object yang kemudian
+            disebut dengan bahasa C++.
+          </p>
+        </article>
+      </section>
+
+      <section class="content-container">
+        <header>
+          <h2>#2 Download Compiler C++</h2>
+        </header>
+        <article>
+          <p>
+            Sebenarnya, anda bisa saja cukup hanya memakai aplikasi text editor
+            biasa seperti notepad kemudian menggunakan aplikasi compiler yang
+            banyak tersedia di internet.
+          </p>
+          <p>
+            Namun saya rasa tidak efisien karena kita akan disibukan dengan
+            masalah teknis.
+          </p>
+          <p>
+            Saya pribadi semasa belajar di bangku kuliah menggunakan DEV C++
+            5.11, kemudian perusahaan Gameloft menggunakan IDE Visual Studio
+            2015 (Saat saya tanya).
+          </p>
+          <p>
+            Meski demikian, ada banyak sekali vendor yang telah menyediakan
+            software lengkap baik berbayar maupun gratis, silahkan download dan
+            install terlebih dahulu.
+          </p>
+        </article>
+      </section>
+
+      <section class="content-container">
+        <header>
+          <h2>#3 Struktur Dasar C++</h2>
+        </header>
+
+        <article>
+          <p>
+            Seperti pada umumnya, langkah pertama kita harus berkenalan dengan
+            bahasa pemrograman c++. Silahkan buka program IDE anda dan ketikkan
+            kode berikut:
+          </p>
+          <div class="code-box-wrapper">
+            <div class="code-box-title">Source Code</div>
+            <div class="code-box">
+              <code>
+                #include &lt;iostream&gt; <br /><br />
+                int main () { <br />
+                &emsp; std::cout &lt;&lt; "Welcome to C++"; <br />
+                &emsp; return 0; <br />
+                }
+              </code>
+            </div>
+          </div>
+          <p>Dan dibandingkan dengan kode berikut ini:</p>
+          <div class="code-box-wrapper">
+            <div class="code-box-title">Source Code</div>
+            <div class="code-box">
+              <code>
+                #include &lt;iostream&gt; <br />
+                using namespace std; <br /><br />
+                int main () { <br />
+                &emsp; cout &lt;&lt; "Welcome to C++"; <br />
+                &emsp; return 0; <br />
+                }
+              </code>
+            </div>
+          </div>
+          <p>Saya akan beri anda waktu 1 menit untuk melihat perbedaannya.</p>
+          <p>
+            Perlu diketahui bahwa kode di atas adalah kode standar C++, kedua
+            kode diatas akan menampikan hasil data yang sama namun penulisannya
+            saja yang sedikit berbeda.
+          </p>
+          <p>Mari kita mengenal beberapa sintaks/coding tersebut</p>
+        </article>
+      </section>
+
+      <section class="content-container">
+        <header>
+          <h2>#4 Header dan Main Program</h2>
+        </header>
+        <article>
+          <p>
+            <span class="highlight-item">Header</span> adalah tempat dimana kita
+            akan memasukkan library yang ada pada C++ kedalam kode program.
+          </p>
+          <p>
+            Jika anda melihat kode pada baris pertama terdapat kode #include
+            &lt;iostream&gt;.
+          </p>
+          <p>Tanda ‘#’ disebut preprocessor directive.</p>
+          <p>
+            Preprocessor directive adalah perintah – perintah yang diberikan
+            kepada compiler untuk melakukan definisi, misalnya untuk memasukkan
+            file library, dan lain sebagainya.
+          </p>
+          <p>
+            Jika kita lihat program diatas kita akan memasukkan (include)
+            library iostream ke dalam program. iostream adalah header yang
+            dibutuhkan untuk “kegiatan” input dan output.
+          </p>
+          <p>Jika anda perhatikan kode program diatas, terdapat:</p>
+          <div class="code-box-wrapper">
+            <div class="code-box-title">Source Code</div>
+            <div class="code-box">
+              <code>using namespace std;</code>
+            </div>
+          </div>
+          <p>
+            Sedangkan pada contoh pertama tidak menggunakan baris kode tersebut.
+          </p>
+          <p>
+            Jadi intinya penggunaannya untuk memberitahukan kepada kompiler
+            bahwa kita akan menggunakan semua fungsi, class atau file yang
+            terdapat pada memori namespace std.
+          </p>
+          <p>
+            Kita tidak perlu mengetikan std::cout untuk mencetak output namun
+            hanya cukup menggunakan fungsi cout saja, karena telah menggunakan
+            using namespace std;
+          </p>
+          <p>
+            Selanjuntya kode main() adalah blok program yang berfungsi sebagai
+            badan sebuah alur kondingan atau disebut sebagai program utama yang
+            ditulis antara kode { hingga }.
+          </p>
+          <p>
+            Berikut adalah contoh program c++ sederhana untuk menghitung
+            keliling lingkaran:
+          </p>
+          <div class="code-box-wrapper">
+            <div class="code-box-title">Source Code</div>
+            <div class="code-box">
+              <code>
+                #include &lt;iostream&gt; <br />
+                using namespace std; <br />
+                <br />
+                const double pi = 3.14159; <br />
+                const char newline = '\n'; <br />
+                <br />
+                int main () <br />
+                { <br />
+                &emsp; double circle; <br />
+                &emsp; double r = 5.0 //radius; <br />
+                &emsp; circle = 2 * pi * r; <br />
+                &emsp; cout &lt;&lt; circle; <br />
+                &emsp; cout &lt;&lt; newline; <br />
+                }
+              </code>
+            </div>
+          </div>
+        </article>
+
+        <footer class="content-footer">
+          <a href="#" class="link-article-footer disable-link">
+            PREV
+          </a>
+          <a href="#" class="link-article-footer">
+            <span>Syntax di C++</span>
+            <span>|&emsp;NEXT</span>
+          </a>
+        </footer>
+      </section>
+
+      <section class="reaction-wrapper">
+        <header>
+          <h4>Gimana reaksi kamu tentang artikel ini ?</h4>
+        </header>
+        <article class="reaction-container">
+          <div class="reaction-button-wrapper">
+            <button class="reaction-button button-style">
+              Bagus banget !!
+            </button>
+            <button class="reaction-button button-style">Terima kasih</button>
+            <button class="reaction-button button-style">
+              Perlu perbaikan
+            </button>
+          </div>
+          <span class="gray-text">0 responses</span>
+        </article>
+      </section>
+
+      <section class="comment-wrapper">
+        <header>
+          <h4>Kuy diskusi tentang artikel ini !!</h4>
+          <span class="gray-text">4 responses</span>
+        </header>
+        <div class="comment-form-container">
+          <a href="#" class="comment-avatar">
+            <img src="../../assets/images/avatar.jpg" alt="avatar.jpg" />
+          </a>
+          <form action="">
+            <input
+              type="text"
+              placeholder="Tulis tanggapan dan tambahan anda ..."
+              class="comment-input"
+            />
+          </form>
+        </div>
+
+        <article class="comment-container">
+          <div class="main-comment">
+            <a href="#" class="comment-avatar">
+              <img src="../../assets/images/avatar.jpg" alt="avatar.jpg" />
+            </a>
+            <div class="comment-placeholder">
+              <div class="comment-title">
+                <span>Test Satu</span>
+                <span class="gray-text">1 jam yang lalu</span>
+              </div>
+              <div>hmm.. video nya menarik dan bermanfaat</div>
+              <div class="gray-text">reply</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="comment-container">
+          <div class="main-comment">
+            <a href="#" class="comment-avatar">
+              <img src="../../assets/images/avatar.jpg" alt="avatar.jpg" />
+            </a>
+            <div class="comment-placeholder">
+              <div class="comment-title">
+                <span>Test Dua</span>
+                <span class="gray-text">1 jam yang lalu</span>
+              </div>
+              <div>
+                tips dari aku perbanyak pelajari sintaks dan bagaimana cara
+                menyelesaikan algoritma dengan baik
+              </div>
+              <div class="gray-text">reply</div>
+            </div>
+          </div>
+
+          <div class="reply-comment">
+            <a href="#" class="comment-avatar">
+              <img src="../../assets/images/avatar.jpg" alt="avatar.jpg" />
+            </a>
+            <div class="comment-placeholder">
+              <div class="comment-title">
+                <span>Test Satu</span>
+                <span class="gray-text">1 jam yang lalu</span>
+              </div>
+              <div>Terima kasih sarannya</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="comment-container">
+          <div class="main-comment">
+            <a href="#" class="comment-avatar">
+              <img src="../../assets/images/avatar.jpg" alt="avatar.jpg" />
+            </a>
+            <div class="comment-placeholder">
+              <div class="comment-title">
+                <span>Test Satu</span>
+                <span class="gray-text">1 jam yang lalu</span>
+              </div>
+              <div>hmm.. video nya menarik dan bermanfaat</div>
+              <div class="gray-text">reply</div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer class="main-footer">
+      <span class="nav-brand">SLEM CODE ;</span>
+      <a href="#" class="nav-link">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </footer>
+  </body>
+</html>

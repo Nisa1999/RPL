@@ -1,0 +1,17 @@
+<div class="favorite-container materi-cpp">
+          <div class="favorite-container-title-wrapper">
+            <p class="favorite-container-materi">Bahasa Pemrograman : C++</p>
+            <p class="favorite-container-title">Dasar Bahasa C++</p>
+          </div>
+          <div class="favorite-link-wrapper">
+            <a href="#" class="link-styling">Lihat Artikel</a>
+          </div>
+        </div>
+		
+		
+		imam : 20k 
+		winkie : 20k
+		isfa : 15k
+		
+		
+		

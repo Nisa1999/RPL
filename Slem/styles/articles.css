@@ -1,0 +1,28 @@
+/* Content */
+.content-wrapper {
+  padding-top: 188px;
+  justify-content: center;
+  margin: 0 10cm;
+}
+
+.content-container {
+  margin-top: 3em;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";
+  color: #33ac1f;
+  font-size: 24pt;
+  font-weight: 900;
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -1em;
+}
+
+.highlight-item {
+  color: #33ac1f;
+}

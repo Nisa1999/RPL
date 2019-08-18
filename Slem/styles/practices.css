@@ -1,0 +1,137 @@
+.return-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.no-space {
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.span-styling {
+  background-color: #ddd;
+  padding: 10px 12px;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  border-radius: 17px;
+  min-width: 7em;
+  text-align: center;
+}
+
+/* Content */
+.content-wrapper {
+  padding-top: 188px;
+  justify-content: center;
+  margin: 0 6cm;
+}
+
+.content-container {
+  margin-top: 3em;
+}
+
+.content-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-title h2 {
+  margin: 0;
+}
+
+.dark-green {
+  background-color: #1f6c12;
+}
+
+.content-wrapper article {
+  margin-left: 2em;
+}
+
+.content-answer div {
+  margin-top: 1em;
+}
+
+.code-box-wrapper {
+  margin: 2em 0;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  display: none;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #e5e5e5e5;
+  border-radius: 100%;
+  background-color: #e5e5e5e5;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #1f6c12;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[type="radio"]:checked + .false:after,
+[type="radio"]:not(:checked) + .false:after {
+  background-color: #ac1f1f;
+}
+
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.content-footer {
+  display: flex;
+  margin-top: 3em;
+}
+
+.result {
+  margin-left: auto;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.result,
+.benar {
+  background-color: #33ac1f;
+}
+
+.salah {
+  background-color: #ac1f1f;
+}
+
+.summary {
+  font-weight: 900;
+}

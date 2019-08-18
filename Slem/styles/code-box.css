@@ -1,0 +1,20 @@
+/* Code Box */
+.code-box-wrapper {
+  border: 3px solid #33ac1f;
+}
+
+.code-box-title {
+  color: white;
+  font-family: "Cocogoose";
+  background-color: #33ac1f;
+}
+
+.code-box {
+  background-color: #e0dfdf;
+  font-size: 14px;
+}
+
+.code-box-title,
+.code-box {
+  padding: 12px 10px;
+}

@@ -1,0 +1,28 @@
+.content-wrapper {
+  padding-top: 81px;
+}
+
+.content-container {
+  display: flex;
+}
+
+.left-container {
+  width: 65%;
+  padding-left: 1.5em;
+  padding-right: 1em;
+}
+
+.right-container {
+  padding-right: 1.5em;
+  padding-left: 1em;
+  width: 35%;
+}
+
+.video-container {
+  border: 1px solid black;
+  height: 640px;
+}
+
+.code-box-wrapper:last-child {
+  margin-top: 1em;
+}
